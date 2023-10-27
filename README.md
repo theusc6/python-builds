@@ -4,6 +4,7 @@
 The python-builds repository is dedicated to providing essential build scripts and processes tailored for Python applications. Whether you're trying to automate your build pipeline, ensure consistent build environments, or streamline your deployment, this repo offers tools and practices to help Python developers achieve these goals with ease.
 
 ## Directory Structure
+```
 /python-builds
 │
 ├── /scripts               # Folder containing build scripts
@@ -17,6 +18,7 @@ The python-builds repository is dedicated to providing essential build scripts a
 │   └── deploy.md
 │
 └── README.md              # This file
+```
 
 ## Usage
 Refer to the respective subdirectories for detailed instructions on how to use and run the scripts or tools provided.
