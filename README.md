@@ -7,11 +7,17 @@ The python-builds repository is dedicated to providing essential build scripts a
 ```
 /python-builds
 │
-├── /scripts               # Folder containing build scripts
+├── /aws                   # AWS related build scripts and documentation
+│   ├── /docs              # Documentation for AWS scripts and processes
+│   │   ├── example.md
+│   │
 │   ├── example.py
 │
-├── /docs                  # Documentation for the scripts and processes
-│   ├── example.md
+├── /okta                  # Okta related build scripts and documentation
+│   ├── /docs              # Documentation for Okta scripts and processes
+│   │   ├── example.md
+│   │
+│   ├── example.py
 │
 └── README.md              # This file
 ```
