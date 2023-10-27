@@ -8,14 +8,10 @@ The python-builds repository is dedicated to providing essential build scripts a
 /python-builds
 │
 ├── /scripts               # Folder containing build scripts
-│   ├── build.py
-│   ├── test.py
-│   └── deploy.py
+│   ├── example.py
 │
 ├── /docs                  # Documentation for the scripts and processes
-│   ├── build.md
-│   ├── test.md
-│   └── deploy.md
+│   ├── example.md
 │
 └── README.md              # This file
 ```
