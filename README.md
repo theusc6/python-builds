@@ -1,7 +1,7 @@
 # python-builds
 
 ## Description
-The python-builds repository is dedicated to providing essential build scripts and processes tailored for Python applications. Whether you're trying to automate your build pipeline, ensure consistent build environments, or streamline your deployment, this repo offers tools and practices to help Python developers achieve these goals with ease.
+The python-builds repository is dedicated to providing essential build scripts and processes tailored for Python applications, specializing in either AWS or Okta. Whether you're trying to automate infrastructure deployments, remediate misconfigurations/vulnerabilities, or build a simply query tool, this repository should provide an excellent place to start.
 
 ## Directory Structure
 ```
