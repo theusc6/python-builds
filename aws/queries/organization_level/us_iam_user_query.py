@@ -253,8 +253,8 @@ def parse_arguments():
 
     parser.add_argument(
         "--master_account_id",
-        default="044370118492",
-        help="AWS Master account id. Default: 044370118492"
+        default=" ",
+        help="AWS Master account id. Default: "
     )
 
     parser.add_argument(
