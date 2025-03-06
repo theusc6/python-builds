@@ -252,12 +252,14 @@ def parse_arguments():
     )
 
     parser.add_argument(
+        "-id",
         "--master_account_id",
         default=" ",
         help="AWS Master account id. Default: "
     )
 
     parser.add_argument(
+        "-n",
         "--master_account_name",
         default="",
         help="AWS Master account name. Default: "
