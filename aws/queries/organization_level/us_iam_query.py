@@ -230,7 +230,7 @@ def assume_role_in_account(acc_id, role_name, session):
 
     """
     print(f'\nAssuming role in account {acc_id}: '
-          f'arn:aws:iam::{acc_id}:role/{role_name}')  
+          f'arn:aws:iam::{acc_id}:role/{role_name}')
     sts = session.client('sts')
     response = sts.assume_role(
         RoleArn=f'arn:aws:iam::{acc_id}:role/{role_name}',
@@ -259,8 +259,8 @@ def parse_arguments():
 
     parser.add_argument(
         "--master_account_name",
-        default="gia-master",
-        help="AWS Master account name. Default: gia-master"
+        default="",
+        help="AWS Master account name. Default: "
     )
 
     parser.add_argument(
@@ -292,17 +292,8 @@ if __name__ == '__main__':
     accounts = [account for account in accounts if account['Id'] != MASTER_ACCOUNT_ID]
     accounts.append(master_account)
 
-    # Add excluded account IDs
-    excluded_account_ids = ['431556431944',
-                            '662717572042', 
-                            '750196822169', 
-                            '816228231549', 
-                            '932966119940', 
-                            '161058235749', 
-                            '214868617505', 
-                            '880858765988', 
-                            '199091510384']
-
+    # Add excluded account IDs, if applicable
+    excluded_account_ids = []
     # Exclude the specified accounts from the list
     accounts = [account for account in accounts if account['Id'] not in excluded_account_ids]
 
